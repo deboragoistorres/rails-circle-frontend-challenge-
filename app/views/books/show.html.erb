@@ -1,0 +1,8 @@
+<!-- app/views/books/show.html.erb -->
+<h1><%= @book["title"] %></h1>
+<p><strong>Author:</strong> <%= @book["author"] %></p>
+<p><strong>ISBN:</strong> <%= @book["isbn"] %></p>
+<p><strong>Price:</strong> $<%= @book["price"] %></p>
+<p><strong>Available Stock:</strong> <%= @book["availableStock"] %></p>
+
+<%= link_to 'Back to list', books_path %>

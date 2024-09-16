@@ -1,0 +1,8 @@
+<!-- app/views/books/index.html.erb -->
+<ul>
+  <% @books.each do |book| %>
+    <li>
+      <%= link_to book['title'], book_path(book['id']) %> - <%= book['author'] %>
+    </li>
+  <% end %>
+</ul>
