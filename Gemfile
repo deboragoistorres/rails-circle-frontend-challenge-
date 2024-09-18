@@ -19,6 +19,8 @@ gem "turbo-rails"
 
 gem 'http'
 
+gem 'sassc-rails'
+
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
